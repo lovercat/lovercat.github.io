@@ -138,6 +138,70 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-HDU Online Judge System" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/09/25/HDU Online Judge System/">HDU Online Judge System</a>
+    </h1>
+  
+
+        
+        <a href="/2018/09/25/HDU Online Judge System/" class="archive-article-date">
+  	<time datetime="2018-09-25T13:43:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-25</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="HDU-Online-Judge-System"><a href="#HDU-Online-Judge-System" class="headerlink" title="HDU Online Judge System"></a>HDU Online Judge System</h1><p>jomain 2018.09.25</p>
+<hr>
+<h2 id="1003-Max-Sum"><a href="#1003-Max-Sum" class="headerlink" title="1003 Max Sum"></a>1003 Max Sum</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line">#include &quot;iostream&quot;</div><div class="line">#include&lt;cstdio&gt;</div><div class="line">using namespace std;</div><div class="line"></div><div class="line">int main()</div><div class="line">&#123;</div><div class="line">	int  testnum, c,n ,i;</div><div class="line">	int numberin[100002];</div><div class="line"></div><div class="line">	scanf_s(&quot;%d&quot;, &amp;testnum);</div><div class="line"></div><div class="line">	for (  c = 1; c &lt;= testnum; c++)</div><div class="line">	&#123;</div><div class="line">	</div><div class="line">		int x = 1, sum = 0, summax=-1000,beegin=0,ennnd=0;</div><div class="line"></div><div class="line">		scanf_s(&quot;%d &quot;, &amp;n);</div><div class="line"></div><div class="line">		for (int i = 0; i &lt; n; i++)</div><div class="line">		&#123;</div><div class="line">			scanf_s(&quot;%d&quot;, &amp;numberin[i]);</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		for (int i = 0; i &lt; n; i++)</div><div class="line">		&#123;</div><div class="line">			sum += numberin[i];</div><div class="line">			if (sum&gt;summax)</div><div class="line">			&#123;</div><div class="line">				summax = sum;</div><div class="line">				beegin = x;</div><div class="line">				ennnd = i + 1;</div><div class="line">			&#125;</div><div class="line">			if (sum&lt;0)</div><div class="line">			&#123;</div><div class="line">				x = i + 2;</div><div class="line">				sum = 0;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">		printf_s(&quot;Case %d:\n%d %d %d\n&quot;, c, summax, beegin, ennnd);</div><div class="line">		if (c != testnum) cout &lt;&lt; endl;</div><div class="line">		</div><div class="line">	&#125;	</div><div class="line">	return 0;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/09/25/HDU Online Judge System/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Cpp Answer" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
